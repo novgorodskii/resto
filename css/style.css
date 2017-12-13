@@ -1,0 +1,49 @@
+
+ @font-face {
+  font-family: 'WC Mano Negra Bta';
+  font-style: normal;
+  font-weight: 400;
+  src: local('WC Mano Negra Bta'), local('WCManoNegraBta-Regular'),
+      url(http://www.allfont.es/cache/fonts/wc-mano-negra-bta_da81fee61ee1a5d49f8bc5eabb2f1807.woff) format('woff'),
+      url(http://www.allfont.es/cache/fonts/wc-mano-negra-bta_da81fee61ee1a5d49f8bc5eabb2f1807.ttf) format('truetype');
+}
+ @font-face {
+  font-family: 'Aleo Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Aleo Regular'), local('Aleo-Regular'),
+      url(http://allfont.ru/cache/fonts/aleo-regular_4035e8192f22003da55d364e2690c72a.woff) format('woff'),
+      url(http://allfont.ru/cache/fonts/aleo-regular_4035e8192f22003da55d364e2690c72a.ttf) format('truetype');
+}
+/* RESET START */
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	color: #fff;
+	font: 300 15px/1 "Open Sans", sans-serif;
+}
+h1, h2, h3, h4, h5, h6, p{
+	margin: 0;
+	font-weight: normal;
+}
+a{
+	color: inherit;
+	text-decoration: none;
+}
+a:hover, a:active, a:focus{
+	text-decoration: none;
+}
+ul, ol{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+img{
+	max-width: 100%;
+}
+textarea{
+	resize: vertical;
+}
+/* RESET END */
